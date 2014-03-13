@@ -1,0 +1,17 @@
+<head>
+  <title>testsize</title>
+</head>
+
+<body>
+  {{loginButtons}}
+  {{>hello}}
+</body>
+
+<template name="hello">
+<ul>
+	{{#each evnts}}
+	 	<li>{{{text}}}</li>
+	{{/each}}
+</ul>
+  
+</template>
